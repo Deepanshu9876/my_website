@@ -1,0 +1,164 @@
+
+
+body {
+  margin:0;
+  text-align: center; /* this property is used for parent */
+  font-family: 'Merriweather', serif;
+  color: #40515E;
+}
+
+h1 {
+  font-size: 4rem; /*100 percent is 16 pix = 1em or use rem because if you give parent a size then it gets embedded,but rem is just for what you desribe it for */
+  width:30%;
+  margin :0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #45b29a;
+}
+
+h2 {
+  color: #45b29a;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border:dotted #EAF6F6 6px;
+  width:4%;
+  border-bottom: none;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height:500px;
+
+}
+.middle-conatainer {
+  margin-bottom:100pc;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+
+.hello-article {
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  line-height: 2;
+}
+.mountain {
+  position: absolute;
+  bottom: 0px;
+  left:370px;
+}
+.profile-pic {
+  border-radius: 50% ;
+  background-color:#e0ebe8;
+}
+
+.profile-pic-top {
+  position: absolute;
+  width: 5%;
+  border-radius: 50%;
+  background-color:#EAF6F6;
+  left:200px;
+  top:50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:300px;
+  top: 300px;
+
+}
+.top-cloud {
+  position: absolute;
+  top: 70px;
+  right: 250px;
+}
+.skill1-img  {
+  border-radius: 50% ;
+  float: left;
+  width : 25%;
+  background-color:#e0ebe8;
+  margin-right: 20px;
+}
+.skill2-img{
+  border-radius: 50% ;
+  float: right;
+  width: 20%;
+  height: 150px;
+  margin-left: 20px;
+  background-color:#e0ebe8;
+}
+
+.skill-row {
+  width: 50%;
+  margin:auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+.contact-message {
+  width:30%;
+  margin:40px auto 40px auto;
+}
+
+.btn {
+  background-image: linear-gradient(#66bfbf 20%, #11999E);
+  border-radius: 8px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+  top: 25px;
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+}
+
+.copyright-message {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
